@@ -41,12 +41,10 @@ main {
 
   background: var(--main-bg-color);
   color: var(--main-font-color);
-  font-size: var(--main-font-size):
-
+  font-size: var(--main-font-size);
 }
 
 footer {
   display: flex;
   padding: 1rem;
-
 }
