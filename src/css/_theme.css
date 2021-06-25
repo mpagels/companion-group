@@ -10,7 +10,9 @@
   --main-bg-color: #fff;
 
   /* FOOTER BASE STYLES */
-  --footer-font-color: #fff;
+  --footer-icon-color-active: #122e50;
+  --footer-font-color: #768aa4;
+  --footer-icon-color: #e1e5e9;
   --footer-font-size: #fff;
   --footer-bg-color: #fff;
 
