@@ -22,10 +22,10 @@ nav ul li a {
   justify-content: center;
 }
 
-.nav__icon {
+svg.nav__icon path {
   fill: var(--footer-nav-icon-color);
 }
 
-.nav__icon--active {
+svg.nav__icon--active path {
   fill: var(--footer-nav-icon-active-color);
 }

@@ -1,3 +1,9 @@
 @import '_base.css';
 @import '_theme.css';
 @import '_footer.css';
+/* @import '_pages/*'; */
+@import 'pages/_index.css';
+@import 'pages/_create.css';
+@import 'pages/_energy.css';
+@import 'pages/_journal.css';
+@import 'pages/_teams.css';
