@@ -58,7 +58,7 @@ student-companion-app
 - Use semantic HTML (use MDN to search the elements)
 - Avoid unnecessary elements
 - Organize your CSS in a good way! Align with the team and then keep being consistent!
-- Deploy your website with Vercel, and test it on a real phone!  
+- Deploy your website with Vercel, and test it on a real phone!
   <br>
 
 ## Design Files
