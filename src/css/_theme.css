@@ -10,11 +10,14 @@
   --main-bg-color: #fff;
 
   /* FOOTER BASE STYLES */
-  --footer-icon-color-active: #122e50;
-  --footer-font-color: #768aa4;
-  --footer-icon-color: #e1e5e9;
   --footer-font-size: #fff;
   --footer-bg-color: #fff;
+
+  /* FOOTER NAV ITEMS */
+
+  --footer-nav-icon-active-color: #122e50;
+  --footer-nav-icon: #768aa4;
+  --footer-nav-icon-color: #e1e5e9;
 
   /* FOOTER NAV BASE STYLES */
   --footer-nav-item-icon-font-size: 2rem;

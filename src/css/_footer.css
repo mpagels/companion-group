@@ -21,3 +21,11 @@ nav ul li a {
   flex: 1 1 auto;
   justify-content: center;
 }
+
+svg.nav__icon path {
+  fill: var(--footer-nav-icon-color);
+}
+
+svg.nav__icon--active path {
+  fill: var(--footer-nav-icon-active-color);
+}
