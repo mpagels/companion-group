@@ -115,6 +115,20 @@ section {
   padding-bottom: 3%;
 }
 
+.dashboard__yj-content-rating-stars {
+  align-items: left;
+  justify-content: space-evenly;
+}
+
+.dashboard__yj-star-rating-1,
+.dashboard__yj-star-rating-2,
+.dashboard__yj-star-rating-3,
+.dashboard__yj-star-rating-4,
+.dashboard__yj-star-rating-5 {
+  padding-left: 1.5%;
+  padding-right: 5%;
+}
+
 .dashboard__yj-star-rating-4,
 .dashboard__yj-star-rating-5 {
   opacity: 0.2;
@@ -124,6 +138,12 @@ section {
   font-size: 0.8rem;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+.dashboard__yj-content-comprehension-blocks {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .dashboard__yj-comprehension-rectangle-8,
@@ -140,6 +160,7 @@ section {
 
 .dashboard__yj-motto-quote {
   color: var(--color-dark-blue);
+  padding-right: 3%;
 }
 
 .dashboard__yj-notes-title {
@@ -151,4 +172,5 @@ section {
 .dashboard__yj-notes-notesblock {
   font-size: 0.9rem;
   color: var(--color-dark-blue);
+  padding-right: 3%;
 }
