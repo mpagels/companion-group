@@ -1,17 +1,4 @@
-:root {
-  /* TODO: recheck: My color picker produced different vals here - wtf? */
-  --color-dark-blue: #132e50;
-  --color-medium-blue: #768aa3;
-  --color-light-blue: #e1e5e9;
-  --color-light-white: #f8f8f8;
-
-  --color-dark-orange: #ee5a34;
-  --color-medium-orange: #f39d87;
-  --color-light-orange: #f6beb1;
-  --color-lighter-orange: #fadfd8;
-}
-
-/* ensure this in main.css !*/
+/* TODO: ensure this goes to main.css !*/
 /* seems to produce the desired result at least on mobile */
 body.journal-area header {
   flex-direction: column;
