@@ -1,0 +1,43 @@
+.btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  text-decoration: none; /* in case we use anchor tag instead of button tag  */
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.orange {
+  background-color: #ff9800;
+} /* Orange */
+.orange:hover {
+  background: #e68a00;
+}
+
+.dark-orange {
+  background-color: var(--color-dark-orange);
+} /* Orange */
+.dark-orange:hover {
+  background: #f23f11;
+}
+
+.transparent-static {
+  background: none;
+  background-color: transparent;
+  color: var(--color-dark-blue);
+} /* Gray */
+.transparent-static:hover {
+  background: none;
+}
+
+.btn.rounded {
+  border-radius: 6px;
+}

@@ -1,0 +1,162 @@
+/* SOME UTILITY CLASSES */
+
+/*TODO: move page head to _main.css */
+.page-head {
+  margin-bottom: 3px;
+}
+
+/* 1. FONT RELATED UTILITIES */
+
+/* INFO: FONT WEIGHT NAMES
+
+For now we can sail with the following and hope that it works out:
+
+- 400	Regular / Normal
+- 600	Semi Bold (Demi Bold)
+- 700	Bold
+
+TODO:
+BUT, to be strict it could be necessary to use a different font face for each fontt style/variant - so we would need to import each oneand assign a differnet name to it
+
+Roboto Bold 700:
+- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+Roboto Bold 700:
+- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*/
+
+/* 1. FONT BOLD 16 PX */
+/* used in header h1 */
+.font-bold-16-dark {
+  font-family: 'Roboto', serif;
+  font-weight: 700; /* == bold */
+  font-size: 1rem; /* 1rem == 16px as per page font size */
+  letter-spacing: 1px;
+  color: var(--color-dark-blue);
+}
+
+/* 2. FONT SEMIBOLD 16 PX (DARKBLLUE)  */
+/* used in ... */
+.font-sb-16-medium {
+  font-family: 'Roboto', serif;
+  /* INFO: normally a font-weight of '600' would be semi-bold - but that doesn't look right - so we use '500' to achieve that desired semi-bold look specified in the artboard - plus: Roboto doesn't really specify a font-weight pf 600 according to google fonts */
+  font-weight: 500;
+  font-size: 1rem; /* 1rem == 16px as per page font size */
+  /* color: var(--main-font-color); */
+  color: var(--color-medium-blue);
+  letter-spacing: 0.5px;
+}
+
+/* 3. FONT SEMIBOLD 16 PX (LIGHTBLLUE) */
+/* used in simple list component  */
+.font-sb-16-light {
+  font-family: 'Roboto', serif;
+  /* INFO: normally a font-weight of '600' woulb be semi-bold - but that doesn't look right - so we use '500' to achieve that desired semi-bold look specified in the artboard - plus: Roboto doesn't really specify a font-weight pf 600 according to google fonts */
+  font-weight: 500;
+  font-size: 1rem; /* 1rem == 16px as per page font size */
+  /* color: var(--main-font-color); */
+  color: var(--color-medium-blue);
+  letter-spacing: 0.5px;
+}
+
+/* FONT-SEMIBOLD-14PX */
+.font-sb-14 {
+  font-family: 'Roboto', serif;
+  font-weight: 500; /* == semi-bold - dito */
+  font-size: 0.875rem; /* == 14px as per page base font size of 16px == 1rem */
+  color: var(--color-dark-blue);
+
+  letter-spacing: 1px;
+}
+
+.font-upper {
+  text-transform: uppercase;
+}
+
+/* FONT-REGULAR-14PX */
+.font-reg-12 {
+  font-family: 'Roboto', serif;
+  font-weight: 400; /*  400 == normal / regular   */
+  font-size: 0.75rem; /* 12px as per page font size of 16px */
+  color: var(--color-medium-blue);
+  letter-spacing: 1px;
+}
+
+/* utils for height */
+/* usd for sizing (small / big)  */
+.height-50 {
+  height: 50px;
+}
+
+.height-75 {
+  height: 75px;
+}
+
+/* utils for margins */
+.mb-0_25 {
+  margin-bottom: 0.25rem;
+}
+.mb-0_5 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-1_5 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+/* useful to left align an element*/
+.mr-auto {
+  margin-right: auto;
+}
+/* useful to right align an element*/
+.ml-auto {
+  margin-left: auto;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.ptb-0_5 {
+  padding: 0.5rem 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+/* UTILS FOR FLEX */
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-auto {
+  flex: auto;
+}
