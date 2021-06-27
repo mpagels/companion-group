@@ -1,0 +1,29 @@
+.dashboard__ycbt {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+.dashboard__ycbt-title {
+  color: black;
+}
+.dashboard__ycbt-content {
+c  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  wrap: flex-wrap;
+}
+.dashboard__ycbt-content-buddy1 {
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+.dashboard__ycbt-content-buddy2 {
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
