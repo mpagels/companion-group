@@ -4,7 +4,11 @@ footer nav ul {
 
 nav {
   display: flex;
-  flex: auto;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: var(--main-card-border-box-shadow);
+  border-radius: 8px;
+  margin: 0 1.5rem;
 }
 
 nav ul {
@@ -12,20 +16,9 @@ nav ul {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
   padding: 0.5rem;
 }
 
-nav ul li a {
-  display: flex;
-  flex: 1 1 auto;
-  justify-content: center;
-}
-
-svg.nav__icon path {
-  fill: var(--footer-nav-icon-color);
-}
-
-svg.nav__icon--active path {
-  fill: var(--footer-nav-icon-active-color);
+.icons--hell {
+  opacity: 0.6;
 }

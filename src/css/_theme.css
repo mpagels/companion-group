@@ -21,17 +21,14 @@
   --main-bg-color: var(--color-light-white);
 
   --main-card-border-color: gray;
-  --main-card-border-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --main-card-border-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
-  --main-btn-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --main-btn-box-shadow: rgb(255, 107, 49) 0px 4px 12px;
 
   /* FOOTER BASE STYLES */
   --footer-font-size: #fff;
   --footer-bg-color: #fff;
-  --footer-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --footer-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
   /* FOOTER NAV ITEMS */
   --footer-nav-icon-active-color: var(--color-dark-blue);

@@ -1,0 +1,80 @@
+@import '_theme.css';
+
+h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 1rem;
+  background-color: white;
+}
+
+.cards {
+  box-shadow: var(--main-card-border-box-shadow);
+  background-color: white;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 315px;
+  height: auto;
+  gap: 2rem 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-around;
+  width: 220px;
+}
+
+.rectangles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rectangles--hell {
+  opacity: 0.2;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 6px;
+  color: white;
+  background-color: var(--color-dark-orange);
+  border: none;
+  box-shadow: var(--main-btn-box-shadow);
+  margin-top: 3em;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.1rem;
+}
+
+.btn img {
+  width: 15px;
+}
+
+.cards_text {
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.cards > .cards_text--small {
+  font-size: 12px;
+  color: var(--color-middle-blue);
+}
+
+.cards > .cards_text--middle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cards > .cards_text--big {
+  font-size: 16px;
+  font-weight: 600;
+  color: #122e50;
+}
