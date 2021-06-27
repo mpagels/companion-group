@@ -8,7 +8,6 @@ nav {
   justify-content: space-around;
   box-shadow: var(--main-card-border-box-shadow);
   border-radius: 8px;
-  margin: 0 1.5rem;
 }
 
 nav ul {
@@ -16,7 +15,7 @@ nav ul {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.6rem 0.5rem 0.4rem 0.5rem;
 }
 
 .icons--hell {
