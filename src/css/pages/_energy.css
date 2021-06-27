@@ -81,3 +81,161 @@ h1 {
 }
 
 /* test */
+.column-container {
+  position: relative;
+}
+.grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat (5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  height: 42.5vw;
+  width: 65vw;
+  transform: translateX(15%);
+  margin-top: 0.9%;
+}
+
+.grid div {
+  border: 1px solid var(--color-light-blue);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.chart {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+}
+
+.chart :nth-child(2n) {
+  margin-right: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* chart labeling -----------------------------*/
+
+.percent,
+.time {
+  font-size: 0.8rem;
+  color: var(--color-medium-blue);
+  position: absolute;
+}
+
+.time div {
+  padding-right: 5%;
+  display: inline-block;
+}
+.time {
+  padding-top: 55%;
+  width: 100vw;
+  padding-left: 12%;
+}
+
+.percent div {
+  padding-bottom: 100%;
+}
+
+/*styling --------------------------------------*/
+
+.chart {
+  height: 20vh;
+  width: 65vw;
+  transform: translateX(20%);
+}
+/*----------------------------------------------*/
+
+.bar-1,
+.bar-3,
+.bar-5,
+.bar-7,
+.bar-9 {
+  grid-row-start: 1;
+  grid-row-end: 101;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--color-dark-orange);
+  grid-row-end: 101;
+}
+
+.bar-2,
+.bar-4,
+.bar-6,
+.bar-8,
+.bar-10 {
+  grid-row-start: 1;
+  grid-row-end: 101;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--color-dark-blue);
+  grid-row-end: 101;
+}
+
+/* bar values -------------------*/
+.bar-1 {
+  grid-row-start: 0;
+}
+
+.bar-2 {
+  grid-row-start: 10;
+}
+
+.bar-3 {
+  grid-row-start: 25;
+}
+
+.bar-4 {
+  grid-row-start: 15;
+}
+
+.bar-5 {
+  grid-row-start: 8;
+}
+
+.bar-6 {
+  grid-row-start: 35;
+}
+
+.bar-7 {
+  grid-row-start: 60;
+}
+
+.bar-8 {
+  grid-row-start: 45;
+}
+
+.bar-9 {
+  grid-row-start: 75;
+}
+
+.bar-10 {
+  grid-row-start: 80;
+}
+
+/*chartlabels ---------------*/
+
+.energy__elttd-charts-labels {
+  position: relative;
+  justify-content: right;
+  padding-bottom: 10%;
+  margin-left: auto;
+  margin-right: 0;
+}
+.energy-elttd-charts-labels-other-students {
+  margin-left: auto;
+  margin-right: 25%;
+  margin-top: 12%;
+}
+
+.energy-elttd-charts-labels-you {
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top: -5%;
+}
+
+.columns {
+  transform: translateX(5%);
+}
