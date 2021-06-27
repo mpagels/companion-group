@@ -1,0 +1,83 @@
+h1 {
+  font-size: 100%;
+}
+
+.energy__elttd-title {
+  color: var(--color-dark-blue);
+  font-size: 0.9rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.energy__elttd-chartbox {
+  position: relative;
+  justify-content: center;
+}
+.energy__elttd-charts {
+  position: relative;
+}
+
+.energy-elttd-charts-labels-other-students,
+.energy-elttd-charts-labels-you {
+  font-size: 0.8rem;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+  width: max-content;
+
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.energy-elttd-charts-labels-other-students {
+  background-color: var(--color-dark-blue);
+  color: var(--color-light-white);
+}
+
+.energy-elttd-charts-labels-you {
+  background-color: var(--color-lighter-orange);
+  color: var(--color-dark-orange);
+}
+
+.energy__rycel-title {
+  color: var(--color-dark-blue);
+  font-size: 0.9rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.energy-button-1,
+.energy-button-2,
+.energy-button-3,
+.energy-button-4 {
+  width: 85vw;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.energy-button-1 {
+  background-color: var(--color-dark-orange);
+  margin-bottom: 3%;
+  color: var(--color-light-white);
+}
+
+.energy-button-2 {
+  background-color: var(--color-medium-orange);
+  margin-bottom: 3%;
+  color: var(--color-light-white);
+}
+
+.energy-button-3 {
+  background-color: var(--color-light-orange);
+  margin-bottom: 3%;
+  color: var(--color-dark-orange);
+}
+
+.energy-button-4 {
+  background-color: var(--color-lighter-orange);
+  margin-bottom: 3%;
+  color: var(--color-dark-orange);
+}
+
+/* test */
