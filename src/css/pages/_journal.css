@@ -17,12 +17,11 @@ h1 {
   box-shadow: var(--main-card-border-box-shadow);
   background-color: white;
   text-align: center;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
   padding: 1rem;
   border-radius: 8px;
   width: auto;
   height: auto;
-  gap: 2rem 0;
 }
 
 .stars {
@@ -70,11 +69,11 @@ h1 {
 .cards > .cards_text--middle {
   color: var(--color-dark-blue);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .cards > .cards_text--big {
   color: var(--color-dark-blue);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
