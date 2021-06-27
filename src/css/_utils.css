@@ -1,33 +1,3 @@
-/* SOME UTILITY CLASSES */
-
-/*TODO: move page head to _main.css */
-.page-head {
-  margin-bottom: 3px;
-}
-
-/* 1. FONT RELATED UTILITIES */
-
-/* INFO: FONT WEIGHT NAMES
-
-For now we can sail with the following and hope that it works out:
-
-- 400	Regular / Normal
-- 600	Semi Bold (Semi Bold)
-- 700	Bold
-
-*/
-
-/* TODO: recheck: My color picker produced different vals here - wtf? */
-/* --color-dark-blue: #132e50;
-  --color-medium-blue: #768aa3;
-  --color-light-blue: #e1e5e9;
-  --color-light-white: #f8f8f8;
-
-  --color-dark-orange: #ee5a34;
-  --color-medium-orange: #f39d87;
-  --color-light-orange: #f6beb1;
-  --color-lighter-orange: #fadfd8; */
-
 /* 1. FONT BOLD 16 PX */
 /* used in header h1 */
 .font-bold-16-dark {

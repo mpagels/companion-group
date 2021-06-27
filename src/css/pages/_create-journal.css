@@ -1,18 +1,6 @@
-/* TODO: ensure this goes to main.css !*/
-/* seems to produce the desired result at least on mobile */
-body.journal-area header {
-  flex-direction: column;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: repeat-x;
+.maincreate {
+  padding: 0 2rem;
 }
-
-body.journal-area main {
-  padding: 2rem;
-  background-color: #fff;
-}
-
-/* TRUY AREA SPECIFIC RULESETS */
 
 body.journal-area main .page-section {
   background-color: #fff;
