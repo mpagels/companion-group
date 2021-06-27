@@ -1,0 +1,43 @@
+/* TODO: ensure this goes to main.css !*/
+/* seems to produce the desired result at least on mobile */
+body.journal-area header {
+  flex-direction: column;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+body.journal-area main {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+/* TRUY AREA SPECIFIC RULESETS */
+
+body.journal-area main .page-section {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+}
+body.journal-area main .rating-star {
+  height: 30px;
+  width: 30px;
+}
+
+body.journal-area main form .form-control {
+  width: inherit;
+  background: var(--form-inputs-bg-color);
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+
+  outline: none;
+  color: inherit;
+  padding: 1.25rem;
+  font-size: 1rem;
+}

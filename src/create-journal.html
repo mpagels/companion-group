@@ -6,37 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-    </style>
+    <script
+      src="https://kit.fontawesome.com/0069c24e64.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <title>Document</title>
+    <title>Journal</title>
   </head>
-  <body class="container teams-area">
-    <header class="height-75">
-      <h1 class="page-head font-bold-16-dark">TEAMS</h1>
-      <h5 class="page-subhead font-reg-12">for Exercise 1</h5>
+  <body class="container journal-area">
+    <header>
+      <h1 class="page-head font-bold-16-dark">JOURNAL</h1>
     </header>
     <main>
-      <section class="box box__team">
-        <h3 class="font-sb-14">Team 1</h3>
-        <ul class="font-sb-16-light">
-          <li>Sudanka Bakalowits</li>
-          <li>Yasaman Foroutan</li>
-          <li>Chioke Okonkwo</li>
-          <li>Maria José Botin</li>
-          <li>Tikhon Yaroslavsky</li>
-        </ul>
-      </section>
-      <section class="box box__team">
-        <h3 class="font-sb-14">Team 2</h3>
-        <ul class="font-sb-16-light">
-          <li>Sudanka Bakalowits</li>
-          <li>Yasaman Foroutan</li>
-          <li>Chioke Okonkwo</li>
-          <li>Maria José Botin</li>
-          <li>Tikhon Yaroslavsky</li>
-        </ul>
+      <h4 class="font-sb-14 font-upper mb-2 mr-auto">today, 12.07.2020</h4>
+
+      <section class="page-section rating-form-wrapper align-items-center">
+        <form class="w-100" method="post">
+          <div class="form-control-wrapper d-flex-column mb-1">
+            <label class="font-sb-14 mb-0_5" for="rating">Rating:</label>
+            <div
+              id="rating"
+              class="d-flex flex-nowrap justify-content-around ptb-0_5"
+            >
+              <img
+                class="rating-star"
+                src="/design/icons/Star-outlined.svg"
+                alt=""
+              />
+              <img
+                class="rating-star"
+                src="/design/icons/Star-outlined.svg"
+                alt=""
+              />
+              <img
+                class="rating-star"
+                src="/design/icons/Star-outlined.svg"
+                alt=""
+              />
+              <img
+                class="rating-star"
+                src="/design/icons/Star-outlined.svg"
+                alt=""
+              />
+              <img
+                class="rating-star"
+                src="/design/icons/Star-outlined.svg"
+                alt=""
+              />
+              <!-- <i class="far fa-star fa-2x"></i>
+              <i class="far fa-star fa-2x"></i>
+              <i class="far fa-star fa-2x"></i>
+              <i class="far fa-star fa-2x"></i>
+              <i class="far fa-star fa-2x"></i>               -->
+            </div>
+          </div>
+          <div class="form-control-wrapper d-flex-column mb-1">
+            <label class="font-sb-14 mb-0_5" for="comprehension"
+              >Comprehension:</label
+            >
+            <div
+              id="comprehension"
+              class="d-flex flex-nowrap justify-content-between ptb-0_5"
+            >
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+              <img src="/design/icons/Rectangle-outlined.svg" alt="" />
+            </div>
+          </div>
+          <div class="form-control-wrapper d-flex-column mb-1">
+            <label class="font-sb-14 mb-0_5" for="motto">Motto:</label>
+            <input
+              id="motto"
+              name="motto"
+              type="text"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-control-wrapper d-flex-column mb-2">
+            <label class="font-sb-14 mb-0_5" for="notes">Notes:</label>
+            <textarea
+              class="form-control"
+              id="notes"
+              name="notes"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-control-wrapper d-flex justify-content-between mb-1">
+            <button
+              class="btn transparent-static font-sb-14 flex-auto"
+              type="submit"
+            >
+              Cancel
+            </button>
+            <button
+              class="btn dark-orange rounded font-sb-14 flex-auto"
+              type="submit"
+            >
+              Save <i class="fas fa-check"></i>
+            </button>
+          </div>
+        </form>
       </section>
     </main>
     <footer>
