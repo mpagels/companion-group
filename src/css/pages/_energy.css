@@ -220,14 +220,14 @@ h1 {
 .energy__elttd-charts-labels {
   position: relative;
   justify-content: right;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   margin-left: auto;
   margin-right: 0;
 }
 .energy-elttd-charts-labels-other-students {
   margin-left: auto;
   margin-right: 25%;
-  margin-top: 12%;
+  margin-top: 20%;
 }
 
 .energy-elttd-charts-labels-you {
