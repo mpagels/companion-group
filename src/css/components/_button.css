@@ -1,4 +1,4 @@
-.btn {
+.btn-cp {
   padding: 14px 28px;
   font-size: 1rem;
   cursor: pointer;
@@ -38,6 +38,6 @@
   background: none;
 }
 
-.btn.rounded {
+.btn-cp.rounded {
   border-radius: 6px;
 }
